@@ -65,6 +65,7 @@ function calculateBMI(weight: number, height: number): string {
 console.log(calculateBMI(60, 1.7)); // Output: "ideal"
 console.log(calculateBMI(85, 1.7)); // Output: "overweight"
 console.log(calculateBMI(100, 1.7)); // Output: "very overweight"
+console.log(calculateBMI(75, 1.65));
 
 
 //SOAL 4
