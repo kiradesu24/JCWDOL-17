@@ -49,6 +49,7 @@ fb(15);
 // 30.0 - 39.9 return “very overweight”
 // > 39.9 return “obesity”z
 
+const calculateBMI = (w: number, h: number) => {
   let bmi = w / h ** 2;
   let result = "";
   if (bmi < 18.5) result = "less weight";
@@ -58,6 +59,7 @@ fb(15);
   else result = "obesity";
   console.log(result);
 };
+calculateBMI(72, 1.76);
 
 // Write a function to remove all odd numbers in an array and return a new array that contains even numbers only
 // Example : [1,2,3,4,5,6,7,8,9,10] → [2,4,6,8,10]
