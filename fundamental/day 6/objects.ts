@@ -34,12 +34,14 @@ const car1: ICar = {
     brand: "BMW",
     model: "M135I xDrive",
     price: 800000000,
+    origin: "germany",
 };
 
 const car2: ICar = {
     brand: "Toyota",
     model: "Innova",
     price: 500000000,
+    origin: "japan",
 };
 
 
