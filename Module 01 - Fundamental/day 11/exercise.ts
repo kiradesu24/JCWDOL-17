@@ -14,11 +14,11 @@
 // 3 == 3
 
 const majority = (nums: number[]) =>
-  (nums.sort()[0] == nums[Math.ceil(nums.length - 1 / 2)] ||
-    nums[Math.ceil((nums.length - 1) / 2)] == nums[nums.length - 1]) &&
-  nums[Math.ceil((nums.length - 1) / 2)];
+  (nums.sort()[0] == nums[Math.floor(nums.length - 1 / 2)] ||
+    nums[Math.floor((nums.length - 1) / 2)] == nums[nums.length - 1]) &&
+  nums[Math.floor((nums.length - 1) / 2)];
 
-console.log(majority([3, 2, 3]));
+console.log(majority([3, 3, 2, 2, 1, 1, 1]));
 
 // Create a function to convert roman numeral to integer.
 // Example 1:
