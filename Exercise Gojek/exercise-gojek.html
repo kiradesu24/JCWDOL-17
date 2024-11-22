@@ -3,43 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GOJEK</title>
+    <title>Gojek Super App </title>
 </head>
 <style>
     body {
-        margin: 0;
-        background-color: black;
-        padding: 10px 10px;
-        
-    }
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #141a21;
+            color: white;
+        }
 
-    #container {
-        color: white;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 20px;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        
-        
-    }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: #141a21;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-size: 15px;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #00ff57; /* Warna hijau saat hover */
+        }
+
+        .navbar .menu {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .logo {
+            font-weight: bold;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .logo img {
+            width: 100px;
+            margin-right: 10px;
+        } 
 </style>
 <body>
-    <nav>
-        <img src="	https://lelogama.go-jek.com/prime/upload/gojek-horizontal-logo-white.svg" 
-        alt="LOGO GOJEK">
-    </nav>
-    <div id="container">
-        <div class="beranda">Beranda</div>
-        <div class="gabungjadimitra">Gabung Jadi Mitra</div>
-        <div class="gocorp">GoCorp</div>
-        <div class="karir">Karir</div>
-        <div class="perusahaan">Perusahaan</div>
-        <div class="produk">Produk</div>
-        <div class="blog">Blog</div>
-        <div class="bantuan">Bantuan</div>
-        <div class="id">ID</div>
+    <div class="navbar">
+        <div class="logo">
+            <img src="	https://lelogama.go-jek.com/prime/upload/gojek-horizontal-logo-white.svg" 
+            alt="LOGO GOJEK">
+        </div>
+
+    <div class="menu">
+        <a href="#">Beranda</a>
+        <a href="#">Gabung jadi Mitra</a>
+        <a href="#">GoCorp</a>
+        <a href="#">Karir</a>
+        <a href="#">Perusahaan</a>
+        <a href="#">Produk</a>
+        <a href="#">Blog</a>
+        <a href="#">Bantuan</a>
+        <a href="#">ID</a>
+
     </div>
 </body>
 </html>
